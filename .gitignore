@@ -1,0 +1,15 @@
+#Ignore Python environment files
+#Virtual environment folders (common names)
+.venv/
+venv/
+env/
+
+#Python compiled files
+pycache/
+*.pyc
+
+#Ignore data files downloaded during runtime
+data/
+
+#Ignore local Streamlit secrets (Crucial for security)
+.streamlit/secrets.toml
